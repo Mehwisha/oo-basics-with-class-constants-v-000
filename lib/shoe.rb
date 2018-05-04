@@ -12,13 +12,15 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-def BRANDS
+def brand=(brand)
    @brand = brand
   #  brand.each do |br|
   #    puts br.brand
   #  end
-  BRANDS << brand
 
+
+  
 
 end
+  BRANDS << brand
 end
