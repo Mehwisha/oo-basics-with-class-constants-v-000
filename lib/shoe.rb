@@ -18,7 +18,6 @@ def BRANDS
   #    puts br.brand
   #  end
   BRANDS << brand
-if BRANDS.size ==
 
 
 end
