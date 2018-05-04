@@ -16,6 +16,7 @@ def brand=(brand)
    @brand = brand
    brand.each do |br|
      puts br.all
+   end
   BRANDS << brand
 
 
