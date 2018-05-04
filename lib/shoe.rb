@@ -16,7 +16,7 @@ def brand=(brand)
     BRANDS << brand
 ::BRANDS = brand
 
- brand = BRANDS.Hash
+ # brand = BRANDS.Hash
 
 
 
