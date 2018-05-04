@@ -19,7 +19,7 @@ def brand=(brand)
   #  end
   BRANDS << brand
 Shoe::BRANDS.size
-  
+
 
 end
 end
