@@ -13,8 +13,8 @@ class Shoe
   end
 def brand=(brand)
   @brand = brand
-  brand.uniq
     BRANDS << brand
+      brand.uniq
  # brand = BRANDS.Hash
 end
 end
