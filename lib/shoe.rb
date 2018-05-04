@@ -15,9 +15,9 @@ class Shoe
   end
 def brand=(brand)
    @brand = brand
-  #  brand.each do |br|
-  #    puts br.brand
-  #  end
+   brand.each do |br|
+     puts br.brand
+   end
 
 
 end
