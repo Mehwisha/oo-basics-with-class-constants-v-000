@@ -13,7 +13,7 @@ class Shoe
   end
 def brand=(brand)
   # @brand = brand
-    Hash["BRANDS"] << brand
+  "BRANDS << brand
 
 end
 end
