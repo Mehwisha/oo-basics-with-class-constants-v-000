@@ -18,7 +18,8 @@ def brand=(brand)
   #    puts br.brand
   #  end
   BRANDS << brand
-Shoe::BRANDS.uniq
+BRANDS.size
+
 
 end
 end
