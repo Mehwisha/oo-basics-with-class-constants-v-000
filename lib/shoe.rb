@@ -18,8 +18,8 @@ def brand=(brand)
   #    puts br.brand
   #  end
   BRANDS << brand
-BRANDS.size
-
+Shoe::BRANDS.size
+  
 
 end
 end
