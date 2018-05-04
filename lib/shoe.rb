@@ -14,7 +14,7 @@ class Shoe
 def brand=(brand)
   @brand = brand
   BRANDS << brand
-BRANDS= Hash.new { |Shoe, BRANDS| Shoe[BRANDS] = brand }
+ Hash.new { |Shoe, brand| Shoe[brand] = brnds }
 
 
 end
